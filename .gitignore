@@ -1,0 +1,8 @@
+.env
+*.env
+jobs/
+__pycache__/
+*.pyc
+*.part
+*.mp4
+*.mp3

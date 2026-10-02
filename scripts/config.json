@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "voice_rate": "+5%",
+  "image_endpoint": "higgsfield-ai/soul/standard",
+  "image_params": {
+    "aspect_ratio": "1:1",
+    "resolution": "1080p"
+  },
+  "image_style_prefix": "Clean stylised 3D CGI explainer render, realistic proportions, bright soft even studio lighting, light blue-grey palette, glossy surfaces, gentle floor reflections.",
+  "image_prompt_guard": "Square 1:1 composition. One single large subject, centred and filling most of the frame, on a plain seamless background. All surfaces plain and unmarked.",
+  "image_car_guard": "The car has a smooth, seamless, completely blank front and rear fascia and bumpers.",
+  "image_ref_param": "",
+  "image_refs": [
+    "brand/ref-frames/hero-car-studio.jpg",
+    "brand/ref-frames/night-porch-house.jpg",
+    "brand/ref-frames/battery-hot-cool-cutaway.jpg"
+  ],
+  "video_mode": "t2v",
+  "video_t2v_endpoint": "bytedance/seedance-2.5/text-to-video",
+  "video_endpoint": "bytedance/seedance-2.5/image-to-video",
+  "video_params": {
+    "aspect_ratio": "1:1",
+    "resolution": "720p",
+    "generate_audio": false,
+    "output_format": "mp4"
+  },
+  "video_duration_range": [
+    4,
+    30
+  ],
+  "video_supports_negative": false,
+  "video_price_per_s": 0.2057,
+  "video_durations": [
+    5,
+    10
+  ],
+  "video_max_slowdown": 1.6,
+  "video_motion": "Smooth, slow camera move; clean animated 3D explainer style; the key element animates clearly (e.g. a gauge filling, a slider moving, a part glowing). No text, no captions, no logos.",
+  "video_negative_prompt": "text, letters, numbers, subtitles, logo, brand badge, emblem, watermark, wall charger, distorted car, extra wheels, flicker",
+  "output_size": 1080,
+  "fps": 30,
+  "logo_width": 300,
+  "logo_opacity": 0.85,
+  "end_card_tail_s": 1.5,
+  "caption_font": "Arial Black",
+  "caption_preset": "A",
+  "brand_orange_bgr": "2E63E4"
+}
